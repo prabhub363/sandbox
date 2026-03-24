@@ -1,0 +1,10 @@
+2026-03-24 10:15:32 ERROR auth-service req-83921 Failed login attempt for user: admin (Invalid password)
+2026-03-24 10:15:35 WARN payment-service req-83922 Payment retry triggered for order_id=ORD10234
+2026-03-24 10:15:40 ERROR db-service req-83923 Connection timeout to database host=db-prod-01
+2026-03-24 10:15:42 INFO api-gateway req-83924 Request processed successfully (200 OK)
+2026-03-24 10:15:45 ERROR order-service req-83925 NullPointerException at OrderController.java:145
+2026-03-24 10:15:50 ERROR cache-service req-83926 Redis connection refused at 127.0.0.1:6379
+2026-03-24 10:15:55 WARN auth-service req-83927 Token expired for user_id=U10293
+2026-03-24 10:16:00 ERROR api-gateway req-83928 Upstream service unavailable (503)
+2026-03-24 10:16:05 ERROR payment-service req-83929 Payment gateway timeout after 30s
+2026-03-24 10:16:10 INFO scheduler req-83930 Daily job executed successfully
